@@ -4,37 +4,32 @@ import styled from "styled-components";
 const projects = [
   {
     id: 1,
-    title: "Proyecto 1",
-    src: "assets/imgs/img/marketing-tradicional-campañas-eventos.svg",
-    color: "#FF5733",
-    link: "https://danielmoras.com.ar/",
+    title: "Allwin",
+    src: "assets/imgs/img/allwin-iberica-desarrollo-web.jpg",
+    link: "https://allwiniberica.com/",
   },
   {
     id: 2,
-    title: "Proyecto 2",
-    src: "assets/imgs/img/plantillas-web-economicas.svg",
-    color: "#33FF57",
-    link: "https://danielmoras.com.ar/",
+    title: "Clorar",
+    src: "assets/imgs/img/clorar-argentina-desarrollo-web.jpg",
+    link: "https://clorar.com/",
   },
   {
     id: 3,
-    title: "Proyecto 3",
-    src: "assets/imgs/img/posicionamiento-organico-seo.svg",
-    color: "#3357FF",
-    link: "https://danielmoras.com.ar/",
+    title: "Diji",
+    src: "assets/imgs/img/diji-iberica-desarrollo-web.jpg",
+    link: "https://diji.es/",
   },
   {
     id: 4,
-    title: "Proyecto 4",
-    src: "assets/imgs/img/branding-poderoso-identidad-de-marca.svg",
-    color: "#F4C542",
-    link: "https://danielmoras.com.ar/",
+    title: "Flora",
+    src: "assets/imgs/img/flora-iberica-desarrollo-web.jpg",
+    link: "https://floraprinteriberica.com/",
   },
   {
     id: 5,
-    title: "Proyecto 5",
-    src: "assets/imgs/img/branding-poderoso-identidad-de-marca.svg",
-    color: "#F4C542",
+    title: "Daniel Moras",
+    src: "assets/imgs/img/daniel-moras-diseño-desarrollo-web.jpg",
     link: "https://danielmoras.com.ar/",
   },
 ];
@@ -42,38 +37,39 @@ const projects = [
 const projectsTwo = [
   {
     id: 1,
-    title: "Proyecto 1",
-    src: "assets/imgs/img/diseño-desarrollo-sitio-web.svg",
-    color: "#FF5733",
-    link: "https://danielmoras.com.ar/",
+    title: "Isd SA",
+    src: "assets/imgs/img/isd-argentina-desarrollo-web.jpg",
+    link: "https://isdsa.com.ar/",
   },
   {
     id: 2,
-    title: "Proyecto 2",
-    src: "assets/imgs/img/diseño-desarrollo-sitio-web.svg",
-    color: "#33FF57",
-    link: "https://danielmoras.com.ar/",
+    title: "Jalaca",
+    src: "assets/imgs/img/jalaca-argentina-desarrollo-web.jpg",
+    link: "https://jalaca.com.ar/",
   },
   {
     id: 3,
-    title: "Proyecto 3",
-    src: "assets/imgs/img/visibilidad-marketing-digital.svg",
-    color: "#3357FF",
-    link: "https://danielmoras.com.ar/",
+    title: "J&M Comex",
+    src: "assets/imgs/img/jmcomex-diseño-desarrollo-web.jpg",
+    link: "https://jmcomercioexterior.com.ar/",
   },
   {
     id: 4,
-    title: "Proyecto 4",
-    src: "assets/imgs/img/posicionamiento-organico-seo.svg",
-    color: "#F4C542",
-    link: "https://danielmoras.com.ar/",
+    title: "Proone Husqvarna",
+    src: "assets/imgs/img/proone-husqvarna-desarrollo-web.jpg",
+    link: "https://proone.com.ar/",
   },
   {
     id: 5,
-    title: "Proyecto 5",
-    src: "assets/imgs/img/posicionamiento-organico-seo.svg",
-    color: "#F4C542",
-    link: "https://danielmoras.com.ar/",
+    title: "Solvent",
+    src: "assets/imgs/img/solvent-diseño-desarrollo-web.jpg",
+    link: "https://solvent.com.ar/",
+  },
+  {
+    id: 6,
+    title: "Umbrellas",
+    src: "assets/imgs/img/umbrellas-muebles-desarrollo-web.jpg",
+    link: "https://umbrellas.com.ar/",
   },
 ];
 
@@ -93,8 +89,8 @@ const CarouselContainer = styled.div`
   overflow: hidden;
   background: var(--blanco);
   z-index: 1;
-  margin-top: ${({ $marginTop }) => $marginTop || "-68px"};
-  margin-bottom: ${({ $marginBottom }) => $marginBottom || "-125px"};
+  margin-top: -68px;
+  margin-bottom: -125px;
 
   h2 {
     position: relative;
@@ -157,13 +153,13 @@ const ProjectImage = styled.img`
   }
 `;
 
-export const Carousel = ({ title, marginTop, marginBottom }) => {
+export const CarouselBottom = () => {
   const [pauseRow1, setPauseRow1] = useState(false);
   const [pauseRow2, setPauseRow2] = useState(false);
 
   return (
-    <CarouselContainer $marginTop={marginTop} $marginBottom={marginBottom}>
-      <h2>{title}</h2>
+    <CarouselContainer>
+      <h2>NUESTROS CLIENTES</h2>
       <MotionRow speed={20} direction="left" $paused={pauseRow1}>
         {infiniteProjects.map((project, index) => (
           <ProjectCard

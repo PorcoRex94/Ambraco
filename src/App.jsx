@@ -1,4 +1,5 @@
 import { Carousel } from "./components/carousel/Carousel";
+import { CarouselBottom } from "./components/carousel/CarouselBottom";
 import { Hero } from "./components/hero/Hero";
 import { Navbar } from "./components/navbar/Navbar";
 import { Separador } from "./components/separador/Separador";
@@ -12,8 +13,9 @@ function App() {
       <Navbar />
       <Hero />
       <Servicios />
-      <Carousel />
+      <Carousel title="PLANTILLAS WEB" />
       <Separador />
+      <CarouselBottom />
     </>
   );
 }
