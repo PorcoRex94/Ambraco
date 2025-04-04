@@ -1,3 +1,4 @@
+import { Carousel } from "./components/carousel/Carousel";
 import { Hero } from "./components/hero/Hero";
 import { Navbar } from "./components/navbar/Navbar";
 import { Servicios } from "./components/servicios/Servicios";
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Servicios />
+      <Carousel />
     </>
   );
 }

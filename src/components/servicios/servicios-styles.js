@@ -16,6 +16,7 @@ export const ServiciosContainer = styled.section`
   .last__p {
     font-size: 1.15rem;
     color: var(--blanco);
+    margin-bottom: 0.5rem;
   }
 
   a {

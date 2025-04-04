@@ -15,6 +15,7 @@ export const GlobalStyles = createGlobalStyle`
         --gris: #5f5666;
         --blanco: #ffffff;
     }
+
 `;
 
 export const Btn = styled.a`
@@ -32,6 +33,4 @@ export const ContainerWaveTop = styled.div`
 
 export const ContainerWaveBottom = styled.div`
   width: 100%;
-  position: relative;
-  bottom: 1.5px;
 `;
