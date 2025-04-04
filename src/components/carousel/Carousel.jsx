@@ -93,7 +93,7 @@ const CarouselContainer = styled.div`
   overflow: hidden;
   background: var(--blanco);
   z-index: 1;
-  margin: -52px;
+  margin: -68px;
 
   .row__top {
     position: relative;
