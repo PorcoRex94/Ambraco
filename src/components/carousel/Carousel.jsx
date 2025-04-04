@@ -93,12 +93,8 @@ const CarouselContainer = styled.div`
   overflow: hidden;
   background: var(--blanco);
   z-index: 1;
-  margin: -68px;
-
-  .row__top {
-    position: relative;
-    z-index: 10;
-  }
+  margin-top: -68px;
+  margin-bottom: -125px;
 `;
 
 const MotionRow = styled.div`
@@ -106,13 +102,13 @@ const MotionRow = styled.div`
   white-space: nowrap;
   gap: 30px;
   margin-top: -105px;
-  background-color: #f5f5f5;
+  background-color: var(--blanco);
 
   animation: ${({ speed, direction }) =>
     `scroll ${speed}s linear infinite ${
       direction === "left" ? "" : "reverse"
     }`};
-  animation-play-state: ${({ paused }) => (paused ? "paused" : "running")};
+  animation-play-state: ${({ $paused }) => ($paused ? "paused" : "running")};
 
   @keyframes scroll {
     from {
@@ -159,12 +155,7 @@ export const Carousel = () => {
   const [pauseRow2, setPauseRow2] = useState(false);
   return (
     <CarouselContainer>
-      <MotionRow
-        className="row__top"
-        speed={20}
-        direction="left"
-        paused={pauseRow1}
-      >
+      <MotionRow speed={20} direction="left" $paused={pauseRow1}>
         {infiniteProjects.map((project, index) => (
           <ProjectCard
             key={index}
@@ -177,7 +168,7 @@ export const Carousel = () => {
           </ProjectCard>
         ))}
       </MotionRow>
-      <MotionRow speed={22} direction="right" paused={pauseRow2}>
+      <MotionRow speed={22} direction="right" $paused={pauseRow2}>
         {infiniteProjectsTwo.map((projectTwo, index) => (
           <ProjectCard
             key={index}
