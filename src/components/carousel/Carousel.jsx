@@ -84,7 +84,7 @@ const infiniteProjectsTwo = [...projectsTwo, ...projectsTwo];
 // 🎥 Contenedor general del carrusel
 const CarouselContainer = styled.div`
   position: relative;
-  width: 100vw;
+  width: 103vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -92,6 +92,8 @@ const CarouselContainer = styled.div`
   align-items: center;
   overflow: hidden;
   background: var(--blanco);
+  z-index: 1;
+  margin: -52px;
 
   .row__top {
     position: relative;

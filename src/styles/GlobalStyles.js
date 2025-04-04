@@ -16,6 +16,10 @@ export const GlobalStyles = createGlobalStyle`
         --blanco: #ffffff;
     }
 
+    body{
+      overflow-x: hidden;
+    }
+
 `;
 
 export const Btn = styled.a`
@@ -33,4 +37,6 @@ export const ContainerWaveTop = styled.div`
 
 export const ContainerWaveBottom = styled.div`
   width: 100%;
+  position: relative;
+  z-index: 50;
 `;
