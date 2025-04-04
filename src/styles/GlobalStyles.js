@@ -23,3 +23,9 @@ export const Btn = styled.a`
   padding: 0.5rem 1.5rem;
   border-radius: 20px;
 `;
+
+export const ContainerWave = styled.div`
+  width: 100%;
+  position: relative;
+  top: 5px;
+`;
