@@ -1,5 +1,10 @@
 import { Btn } from "../../styles/GlobalStyles";
-import { FirstContainer, GlobalContainer, HeroContainer } from "./hero-styles";
+import {
+  FirstContainer,
+  GlobalContainer,
+  HeroContainer,
+  SecondGlobalContainer,
+} from "./hero-styles";
 
 export const Hero = () => {
   return (
@@ -16,6 +21,17 @@ export const Hero = () => {
         </FirstContainer>
         <img src="assets/imgs/img/ambraco-agencia-web.svg" alt="" />
       </GlobalContainer>
+      <SecondGlobalContainer>
+        <h3>ESCUCHAR, CREAR, CRECER</h3>
+        <p>
+          Sabemos lo desgastante que puede ser invertir en marketing y no ver
+          resultados concretos. Por eso, en Ambraco combinamos marketing digital
+          y tradicional para darte la solución que realmente necesitás. Primero
+          comprendemos tu situación; luego trabajamos codo a codo con vos para
+          potenciar tu negocio donde más lo necesite.
+        </p>
+        <p>¿Empezamos? Reservá tu cita y contanos tu caso.</p>
+      </SecondGlobalContainer>
     </HeroContainer>
   );
 };
