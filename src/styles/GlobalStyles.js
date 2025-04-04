@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
     *{
@@ -15,4 +15,11 @@ export const GlobalStyles = createGlobalStyle`
         --gris: #5f5666;
         --blanco: #ffffff;
     }
+`;
+
+export const Btn = styled.a`
+  background-color: var(--indigo);
+  color: var(--ambar);
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
 `;
