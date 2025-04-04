@@ -24,8 +24,14 @@ export const Btn = styled.a`
   border-radius: 20px;
 `;
 
-export const ContainerWave = styled.div`
+export const ContainerWaveTop = styled.div`
   width: 100%;
   position: relative;
-  top: 5px;
+  top: 4px;
+`;
+
+export const ContainerWaveBottom = styled.div`
+  width: 100%;
+  position: relative;
+  bottom: 1.5px;
 `;
