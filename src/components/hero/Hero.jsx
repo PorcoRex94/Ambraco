@@ -30,7 +30,9 @@ export const Hero = () => {
           comprendemos tu situación; luego trabajamos codo a codo con vos para
           potenciar tu negocio donde más lo necesite.
         </p>
-        <p>¿Empezamos? Reservá tu cita y contanos tu caso.</p>
+        <p>
+          ¿Empezamos? <a href="#">Reservá tu cita</a> y contanos tu caso.
+        </p>
       </SecondGlobalContainer>
     </HeroContainer>
   );

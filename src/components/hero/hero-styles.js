@@ -22,11 +22,12 @@ export const GlobalContainer = styled.div`
 
 export const FirstContainer = styled.div`
   width: 60%;
-  padding-left: 6rem;
+  padding-left: 5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  border: 1px solid red;
 
   h1 {
     font-size: 40px;
@@ -56,5 +57,9 @@ export const SecondGlobalContainer = styled.div`
 
   p {
     font-size: 30px;
+  }
+
+  a {
+    color: var(--ambar);
   }
 `;
