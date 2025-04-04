@@ -27,7 +27,6 @@ export const FirstContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  border: 1px solid red;
 
   h1 {
     font-size: 40px;
