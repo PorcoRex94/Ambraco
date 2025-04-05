@@ -32,9 +32,8 @@ const projects = [
   },
   {
     id: 5,
-    title: "Proyecto 5",
-    src: "assets/imgs/img/branding-poderoso-identidad-de-marca.svg",
-    color: "#F4C542",
+    title: "Daniel Moras",
+    src: "assets/imgs/img/daniel-moras-diseño-desarrollo-web.jpg",
     link: "https://danielmoras.com.ar/",
   },
 ];
@@ -56,10 +55,9 @@ const projectsTwo = [
   },
   {
     id: 3,
-    title: "Proyecto 3",
-    src: "assets/imgs/img/visibilidad-marketing-digital.svg",
-    color: "#3357FF",
-    link: "https://danielmoras.com.ar/",
+    title: "J&M Comex",
+    src: "assets/imgs/img/jmcomex-diseño-desarrollo-web.jpg",
+    link: "https://jmcomercioexterior.com.ar/",
   },
   {
     id: 4,

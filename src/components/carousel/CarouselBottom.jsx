@@ -89,7 +89,7 @@ const CarouselContainer = styled.div`
   overflow: hidden;
   background: var(--blanco);
   z-index: 1;
-  margin-top: -68px;
+  margin-top: -125px;
   margin-bottom: -125px;
 
   h2 {
