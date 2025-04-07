@@ -37,6 +37,12 @@ export const HeaderContainer = styled.header`
       transform: rotate(-45deg) translate(-5px, 1px);
     }
   }
+
+  @media (max-width: 600px) {
+    .nav__toggle {
+      margin: 1rem;
+    }
+  }
 `;
 
 export const NavContainer = styled.nav`
@@ -69,7 +75,6 @@ export const ItemsContainer = styled.ul`
 
   li > a {
     color: var(--blanco);
-    position: relative;
   }
 
   .li__diferente {
@@ -83,9 +88,8 @@ export const ItemsContainer = styled.ul`
     animation: pulse 1s infinite ease-in-out;
   }
 
-  @media (min-width: 1024px) and (max-width: 1328px) {
-    gap: 25px;
-    width: 45%;
+  @media (min-width: 961px) and (max-width: 1328px) {
+    width: 50%;
   }
 
   @media (max-width: 960px) {
