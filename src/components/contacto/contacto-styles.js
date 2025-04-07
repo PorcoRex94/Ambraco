@@ -43,7 +43,7 @@ export const SecondContainer = styled.form`
     border-left: none;
     border-right: none;
     border-top: none;
-    border-bottom: 4px solid var(--ambar);
+    border-bottom: 3px solid var(--ambar);
     color: var(--blanco);
   }
 
@@ -77,7 +77,7 @@ export const InputContainer = styled.div`
     border-left: none;
     border-right: none;
     border-top: none;
-    border-bottom: 4px solid var(--ambar);
+    border-bottom: 3px solid var(--ambar);
     color: var(--blanco);
   }
 

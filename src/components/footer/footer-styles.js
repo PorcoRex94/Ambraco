@@ -11,7 +11,7 @@ export const ContainerFooterTop = styled.nav`
   justify-content: space-evenly;
   align-items: center;
   gap: 25px;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 
   img {
     width: 350px;

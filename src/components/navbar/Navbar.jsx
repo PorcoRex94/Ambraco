@@ -1,6 +1,16 @@
+import { useState } from "react";
 import { HeaderContainer, ItemsContainer, NavContainer } from "./navbar-styles";
+import { useEffect } from "react";
 
 export const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflowY = isOpen ? "hidden" : "auto";
+    return () => {
+      document.body.style.overflowY = "auto"; // cleanup si el componente se desmonta
+    };
+  }, [isOpen]);
   return (
     <HeaderContainer>
       <NavContainer>
@@ -10,7 +20,7 @@ export const Navbar = () => {
             alt="Logo Ambraco"
           />
         </a>
-        <ItemsContainer>
+        <ItemsContainer $isOpen={isOpen}>
           <li>
             <a href="">Incio</a>
           </li>
@@ -27,6 +37,14 @@ export const Navbar = () => {
           </li>
         </ItemsContainer>
       </NavContainer>
+      <div
+        className={`nav__toggle ${isOpen && "open"}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </HeaderContainer>
   );
 };
