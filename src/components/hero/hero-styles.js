@@ -8,6 +8,10 @@ export const HeroContainer = styled.section`
   justify-content: center;
   align-items: center;
   gap: 50px;
+
+  @media (max-width: 1200px) {
+    padding: 2rem 0rem;
+  }
 `;
 
 export const GlobalContainer = styled.div`
@@ -17,6 +21,15 @@ export const GlobalContainer = styled.div`
   img {
     width: 40%;
     height: auto;
+  }
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    gap: 45px;
+
+    img {
+      width: 100%;
+    }
   }
 `;
 
@@ -35,6 +48,14 @@ export const FirstContainer = styled.div`
   .first__p {
     width: 75%;
     font-size: 30px;
+  }
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 `;
 
