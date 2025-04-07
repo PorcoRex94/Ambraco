@@ -11,6 +11,7 @@ export const ContainerFooterTop = styled.nav`
   justify-content: space-evenly;
   align-items: center;
   gap: 25px;
+  margin-bottom: 5rem;
 
   img {
     width: 350px;
@@ -24,7 +25,6 @@ export const UlContainer = styled.ul`
   justify-content: center;
   align-items: center;
   gap: 15px;
-  padding: 1rem;
 
   li > a {
     color: var(--indigo);
