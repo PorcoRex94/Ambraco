@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920.4 188.2"
+	 style="enable-background:new 0 0 1920.4 188.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1B0035;}
+	.st1{fill:#FF9B2E;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#5F5666;}
+	.st4{clip-path:url(#SVGID_4_);fill:#FF9B2E;}
+	.st5{opacity:0.5;clip-path:url(#SVGID_4_);fill:#FFFFFF;}
+	.st6{opacity:0.5;clip-path:url(#SVGID_4_);}
+	.st7{clip-path:url(#SVGID_4_);fill:#5F5666;}
+	.st8{clip-path:url(#SVGID_4_);fill:#1B0035;}
+	.st9{clip-path:url(#SVGID_4_);}
+	.st10{clip-path:url(#SVGID_4_);fill:#FFFFFF;}
+	.st11{clip-path:url(#SVGID_5_);fill:#5F5666;}
+	.st12{clip-path:url(#SVGID_5_);fill:#999999;}
+	.st13{clip-path:url(#SVGID_5_);}
+	.st14{fill:#FFC1AC;}
+	.st15{fill:#000A0F;}
+	.st16{fill:none;stroke:#FFFFFF;stroke-width:1.0408;stroke-linecap:round;stroke-miterlimit:10;}
+	.st17{opacity:0.3;fill:#000A0F;}
+	.st18{fill:#52528E;}
+	.st19{fill:#9E4400;}
+	.st20{fill:#FDD0AD;}
+	.st21{fill:#E0947F;}
+	.st22{fill:#F78080;}
+	.st23{fill:#BF5050;}
+	.st24{fill:#0F1F29;}
+	.st25{fill:#999999;}
+	.st26{opacity:0.1;fill:#000A0F;}
+	.st27{fill:#FDD7C8;}
+	.st28{fill:#260151;}
+	.st29{fill:#FFD8A2;}
+	.st30{fill:#FFFFFF;stroke:#878CF3;stroke-width:1.8772;stroke-miterlimit:10;}
+	.st31{fill:none;stroke:#CCD7FC;stroke-width:2.0399;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st32{fill:#CCD7FC;stroke:#CCD7FC;stroke-width:1.5077;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st33{fill:none;stroke:#878CF3;stroke-width:1.8772;stroke-miterlimit:10;}
+	.st34{opacity:0.2;fill:#323268;}
+	.st35{fill:#FFB75C;}
+	.st36{fill:#E3B89A;}
+	.st37{fill:none;stroke:#FF9B2E;stroke-width:6.5702;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st38{opacity:0.2;fill:#000A0F;}
+	.st39{clip-path:url(#SVGID_6_);}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="6669.2" width="5955.1" x="-454.1" y="-1664.8"></sliceSourceBounds>
+		<optimizationSettings>
+			<targetSettings  fileFormat="PNG24Format" targetSettingsID="0">
+				<PNG24Format  filtered="false" interlaced="false" matteColor="#FFFFFF" noMatteColor="false" transparency="true">
+					</PNG24Format>
+			</targetSettings>
+		</optimizationSettings>
+	</sfw>
+</metadata>
+<g>
+	<defs>
+		<rect id="SVGID_2_" x="-0.8" y="-0.2" width="1922" height="188.4"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_2_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st9">
+		<path class="st1" d="M-11.6,129.2l80.9,7.1c80.9,7.7,242.6,21.2,404.3,7.3C635.2,129.2,796.9,86,958.6,93.2
+			c161.7,7.7,323.4,64.3,485.1,57.5S1767.1,71.2,1848,35.8l80.9-36v345H1848c-80.9,0-242.6,0-404.3,0s-323.4,0-485.1,0
+			s-323.4,0-485.1,0s-323.4,0-404.3,0h-80.9V129.2z"/>
+		<path class="st0" d="M-11.6,145.1l80.9,7.1c80.9,7.7,242.6,21.2,404.3,7.3c161.7-14.4,323.4-57.5,485.1-50.4
+			c161.7,7.7,323.4,64.3,485.1,57.5S1767.1,87.1,1848,51.7l80.9-36v345H1848c-80.9,0-242.6,0-404.3,0s-323.4,0-485.1,0
+			s-323.4,0-485.1,0s-323.4,0-404.3,0h-80.9V145.1z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+	 style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1B0035;}
+	.st1{fill:#FF9B2E;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#5F5666;}
+	.st4{clip-path:url(#SVGID_2_);fill:#FF9B2E;}
+	.st5{opacity:0.5;clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+	.st6{opacity:0.5;clip-path:url(#SVGID_2_);}
+	.st7{clip-path:url(#SVGID_2_);fill:#5F5666;}
+	.st8{clip-path:url(#SVGID_2_);fill:#1B0035;}
+	.st9{clip-path:url(#SVGID_2_);}
+	.st10{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="5678.2" width="5955.1" x="-454.1" y="-673.7"></sliceSourceBounds>
+		<optimizationSettings>
+			<targetSettings  fileFormat="PNG8Format" targetSettingsID="0">
+				
+					<PNG8Format  autoReduce="false" ditherAlgorithm="diffusion" ditherPercent="88" interlaced="false" matteColor="#FFFFFF" noMatteColor="false" numColors="128" reductionAlgorithm="selective" rolloverMasterPalette="false" transparency="true" webShiftPercent="0">
+					<colorTable  isExact="false"></colorTable>
+					<lockedColors></lockedColors>
+					<colorShiftEntries></colorShiftEntries>
+				</PNG8Format>
+			</targetSettings>
+		</optimizationSettings>
+	</sfw>
+</metadata>
+<g>
+	<g>
+		<g>
+			<g>
+				<path class="st1" d="M191.4,383.7h57.7l-92.7-254.5H98.7L6,383.7h57.7l0.1-0.2h127.6L191.4,383.7z M101.9,278.9l25.7-70.4
+					l0.2,0.6l0.2-0.6l44,121.2H83.4l18.7-50.8H101.9z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M371.7,122.3c-74.1,0-134.3,59.9-134.3,133.7c0,73.8,60.2,133.7,134.3,133.7c74.1,0,134.3-59.9,134.3-133.7
+					S445.8,122.3,371.7,122.3z M371.7,337.2c-40.1,0-79.1-37.5-79.1-81.2c0-43.8,39-81.2,79.1-81.2c40.1,0,79.1,37.5,79.1,81.2
+					C450.8,299.8,411.7,337.2,371.7,337.2z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
